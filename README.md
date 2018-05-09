@@ -7,7 +7,7 @@
 <div class="body">
 <div class="message-text">
 <div class="markup">cd klks</div>
-<div class="markup">cmod 777 -R *</div>
+<div class="markup">chmod 777 -R *</div>
 <div class="markup">cd depends</div>
 <div class="markup">make HOST=aarch64-linux-gnu</div>
 </div>
