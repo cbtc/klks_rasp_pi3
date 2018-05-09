@@ -18,9 +18,9 @@
 <div class="message-text">
 <div class="btn-reaction">cd ..</div>
 <div class="btn-reaction">chmod -R 777 build-aux/m4 <br />./autogen.sh</div>
-<div class="btn-reaction">./configure --prefix=`pwd`/depends/aarch64-linux-gnu --enable-static <br />make HOST=aarch64-linux-gnu</div>
+<div class="btn-reaction">./configure --prefix=`pwd`/depends/aarch64-linux-gnu --enable-static <br />sudo make HOST=aarch64-linux-gnu</div>
 <div class="btn-reaction">&nbsp;</div>
-<div class="btn-reaction">First time yoy open the GUI wallet, launch wtih:<br />./klks-qt &amp;</div>
+<div class="btn-reaction">First time you open the GUI wallet, launch wtih:<br />./klks-qt &amp;</div>
 <div class="btn-reaction">&nbsp;</div>
 <div class="btn-reaction">***********************************************************************************</div>
 </div>
