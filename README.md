@@ -33,20 +33,11 @@
 </div>
 </div>
 </div>
-&nbsp;</td>
+</td>
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<div class="message first">&nbsp;</div>
-<div class="message">
-<div class="body">
-<div class="message-text">
-<div class="btn-reaction">&nbsp;</div>
-<div class="btn-reaction">***********************************************************************************</div>
-</div>
-</div>
-</div>
+<p>***********************************************************************************</p>
 <p><strong>Main Features:</strong></p>
 <ul>
 <li><strong>Masternode technology</strong> used to secure the network</li>
