@@ -1,8 +1,16 @@
 <p><a href="http://www.kalkulus.trade/"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/TDhrEOP.png" /></a>&nbsp;</p>
 <p><strong>Kalkulus GUI Client Raspberry PI3 Official Repository</strong></p>
 <p>This repository is designed to work on a Raspberry PI3 with Gentoo 64Bit.<br />After compilation you will have a working and full functional KLKS GUI wallet with staking and masternodes controller functionalities.</p>
+<p>You can download a compiled GUI wallet from official release page: <strong><a href="https://github.com/kalkulusteam/klks/releases/tag/v2.5.1">https://github.com/kalkulusteam/klks/releases/tag/v2.5.1</a>&nbsp;</strong>or you can follow instructions below to compile wallet in your Linux system (ubuntu 16.04 recommended with all typical deps installed)</p>
 <p><strong>To compile GUI wallet:</strong></p>
-<p>Clone this repo on your computer, open terminal and compile with:</p>
+<p>Clone this repo on your computer, open terminal, install missing deps and compile:</p>
+<table class="highlight tab-size js-file-line-container" data-tab-size="8">
+<tbody>
+<tr>
+<td id="file-klks_qt-rasp-LC3" class="blob-code blob-code-inner js-file-line">sudo apt-get install curl g++-aarch64-linux-gnu g++-4.8-aarch64-linux-gnu gcc-4.8-aarch64-linux-gnu binutils-aarch64-linux-gnu g++-arm-linux-gnueabihf g++-4.8-arm-linux-gnueabihf gcc-4.8-arm-linux-gnueabihf binutils-arm-linux-gnueabihf g++-4.8-multilib gcc-4.8-multilib binutils-gold bsdmainutils</td>
+</tr>
+<tr>
+<td id="file-klks_qt-rasp-L4" class="blob-num js-line-number" data-line-number="4">
 <div class="message first">
 <div class="body">
 <div class="message-text">
@@ -21,6 +29,19 @@
 <div class="btn-reaction">./configure --prefix=`pwd`/depends/aarch64-linux-gnu --enable-static <br />sudo make HOST=aarch64-linux-gnu</div>
 <div class="btn-reaction">&nbsp;</div>
 <div class="btn-reaction">First time you open the GUI wallet, launch wtih:<br />./klks-qt &amp;</div>
+<div class="btn-reaction">&nbsp;</div>
+</div>
+</div>
+</div>
+&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<div class="message first">&nbsp;</div>
+<div class="message">
+<div class="body">
+<div class="message-text">
 <div class="btn-reaction">&nbsp;</div>
 <div class="btn-reaction">***********************************************************************************</div>
 </div>
