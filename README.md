@@ -9,6 +9,8 @@
 <tr>
 <td id="file-klks_qt-rasp-LC3" class="blob-code blob-code-inner js-file-line">sudo apt-get install curl g++-aarch64-linux-gnu g++-4.8-aarch64-linux-gnu gcc-4.8-aarch64-linux-gnu binutils-aarch64-linux-gnu g++-arm-linux-gnueabihf g++-4.8-arm-linux-gnueabihf gcc-4.8-arm-linux-gnueabihf binutils-arm-linux-gnueabihf g++-4.8-multilib gcc-4.8-multilib binutils-gold bsdmainutils</td>
 </tr>
+    The wallet works on a Gentoo 64 Bit OS for Raspberry PI3
+  https://github.com/kalkulusteam/gentoo-on-rpi3-64bit
 <tr>
 <td id="file-klks_qt-rasp-L4" class="blob-num js-line-number" data-line-number="4">
 <div class="message first">
@@ -18,8 +20,6 @@
 <div class="markup">chmod 777 -R *</div>
 <div class="markup">cd depends</div>
 <div class="markup">make HOST=aarch64-linux-gnu</div>
-  The wallet works on a Gentoo 64 Bit OS for Raspberry PI3
-  https://github.com/kalkulusteam/gentoo-on-rpi3-64bit
 </div>
 </div>
 </div>
