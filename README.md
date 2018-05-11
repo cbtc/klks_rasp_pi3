@@ -18,6 +18,8 @@
 <div class="markup">chmod 777 -R *</div>
 <div class="markup">cd depends</div>
 <div class="markup">make HOST=aarch64-linux-gnu</div>
+  The wallet works on a Gentoo 64 Bit OS for Raspberry PI3
+  https://github.com/kalkulusteam/gentoo-on-rpi3-64bit
 </div>
 </div>
 </div>
