@@ -9,8 +9,6 @@
 <tr>
 <td id="file-klks_qt-rasp-LC3" class="blob-code blob-code-inner js-file-line">sudo apt-get install curl g++-aarch64-linux-gnu g++-4.8-aarch64-linux-gnu gcc-4.8-aarch64-linux-gnu binutils-aarch64-linux-gnu g++-arm-linux-gnueabihf g++-4.8-arm-linux-gnueabihf gcc-4.8-arm-linux-gnueabihf binutils-arm-linux-gnueabihf g++-4.8-multilib gcc-4.8-multilib binutils-gold bsdmainutils</td>
 </tr>
-    The wallet works on a Gentoo 64 Bit OS for Raspberry PI3
-  https://github.com/kalkulusteam/gentoo-on-rpi3-64bit
 <tr>
 <td id="file-klks_qt-rasp-L4" class="blob-num js-line-number" data-line-number="4">
 <div class="message first">
@@ -31,6 +29,8 @@
 <div class="btn-reaction">./configure --prefix=`pwd`/depends/aarch64-linux-gnu --enable-static <br />sudo make HOST=aarch64-linux-gnu</div>
 <div class="btn-reaction">&nbsp;</div>
 <div class="btn-reaction">First time you open the GUI wallet,give permissions with:<br />sudo chmod 777 klks-qt and launch with:<br />./klks-qt &amp;</div>
+  The wallet works on a Gentoo 64 Bit OS for Raspberry PI3
+  https://github.com/kalkulusteam/gentoo-on-rpi3-64bit
 <div class="btn-reaction">&nbsp;</div>
 </div>
 </div>
